@@ -21,7 +21,7 @@ const playGame = () => {
   let gameResult = {};
 
   if (currentGame) {
-    gameResult = games[gameValue]();
+    gameResult = games[currentGame]();
   } else {
     const currentGame = window.prompt("Ymar togloom togloh we");
 
@@ -35,7 +35,7 @@ const playGame = () => {
   );
 
   if (playAgain === "0") {
-    return resultArray;
+    return console.log(resultArray);
   } else if (playAgain === "1") {
     currentGame = "";
     return playGame();
