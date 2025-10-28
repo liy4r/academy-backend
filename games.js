@@ -1,7 +1,3 @@
-// import { rockpaper } from "./games/rockpaper.js";
-// import { number } from "./games/number.js";
-// import { word } from "./games/word.js";
-// import { dice } from "./games/dice.js";
 const is = document.getElementById("is");
 const diceGameBtn = document.getElementById("dice");
 const rpsGameBtn = document.getElementById("rps");
